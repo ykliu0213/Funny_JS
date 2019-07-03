@@ -1,6 +1,7 @@
 # Funny_JS
 
 ## 01.audio_autoplay_block_solution
+> [Demo](https://ykliu0213.github.io/Funny_JS/01.audio_autoplay_block_solution/index.html)
 
 * **個案動機：** 
   * 原本是想做一個像無名小站那樣，一開啟網頁就會自動播放背景音樂的功能，卻發現沒有辦法在 chrome 上成功執行QQ。去查了一下，發現真的是 chrome 瀏覽器的問題！從 2018 年 4 月開始， chrome 瀏覽器會在剛開啟網頁時阻擋 `<audio>` 的 `autoplay` 屬性，使得我們的音樂沒有辦法在開啟網頁時就自動播放。
