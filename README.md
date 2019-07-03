@@ -16,11 +16,11 @@
     * MEI指數 ── 使用者與網頁上媒體互動的程度 
       * 帶影片的標籤處於活動狀態
 
-    <img src="https://i.imgur.com/d1PtquV.png" style="border: 5px solid">
+    <img src="pic/01/Chrome_Autoplay_Policy_Changes_1.jpg" >
 
   * 在[文件](https://developers.google.com/web/updates/2017/09/autoplay-policy-changes)中也有提到（下圖），這次的 Policy 主要是針對 `<audio>` 和 `<video>` 兩個 `tag` ，並不會影響到 `<iframe>` ，因此我們可以從這裡下手。
   
-    <img src="https://i.imgur.com/QfKS6lN.png" style="border: 5px solid">
+    <img src="pic/01/Chrome_Autoplay_Policy_Changes_2.jpg">
   
 * **解決方法：**
   * 瞭解問題出在哪後，我們就可以直接來解決它啦！根據前面的分析，`<iframe>` 不會受到 chrome 的阻擋，而網頁在播放帶有聲音的影片後，MEI指數就可以達標，MEI指數達標後，我們的 `<audio>` 就可以讓它 `autoplay` 了～
